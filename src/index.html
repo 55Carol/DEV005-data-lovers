@@ -11,46 +11,46 @@
 </head>
 
 <body>
-
+  
   <header class="header">
     <div class="container">
       <nav class="header_nav">
         <a href="index.html" class="header_a"><img class="img1" src="img/3.png" alt="logo Studio Ghibli"></a>
-        <a href="#home" class="header_a">Home</a>
-        <a href="#information" class="header_a">Information</a>
-        <a href="#galery" class="header_a">Galery</a>
-        <a href="#contact" class="header_a">Contact us</a>
         <img class="img2" src="./img/6.png" alt="logo Studio Ghibli">
       </nav>
     </div>
   </header>
+
 
   <main data-content="content" class="content" id="home">
     <div class="title">
       <h1>Movies Studio Ghibli</h1>
       <hr>
     </div>
+
+<!--boton de calcular por puntaje las peliculas mas buenas -->
+   
+<!-- buscador de pelicula por nombre-->
     <div class="search">
       <label for="search">Search Movie</label>
       <input class="input" id="search" placeholder="Search by name...">
     </div>
-    <div class="">
-      <select id="options" name="year">
-        <option>select</option>
-        <option>1986</option>
-        <option>1988</option>
-        <option>1989</option>
-        <option>1991</option>
-        <option>1992</option>
+
+   
+<!--selec buscador de peliculas por año asc y desc*/-->
+    <div class="ordenar">
+      <select id="years" name="year">   
+        <option value="descendente">ordena descendente</option>
+        <option value="ascendente">ordena ascendente</option>
         </select>
     </div>
-      <div class="cards" id="cards">
-        <div class="card" id="card">
-        </div>
-      </div>
-  </main>
+  
 
-  <div id="root"></div>
+
+        <!--id del recorrido foreach DENTRO ESTÁN LOS ARTICLES DE Las peliculas Ghibli-->
+        <div id="recorrido">
+        </div>
+  </main>
   <script src="main.js" type="module"></script>
 </body>
 

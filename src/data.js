@@ -1,21 +1,42 @@
-// Función para imprimir datos en pantalla
-export const titlesFilms = names => names.map(name => `
-<div class="card">
-  <div class="title"><h2>${name.title}</h2></div>
-  <div class="img">
-    <img src="${name.poster}" alt="movies">
-  </div>
-  <div class="text">
-    <div class="score"><h3>Score: ${name.rt_score}</h3></div>
-    <div class="year"><h4>Year: ${name.release_date}</h4></div>
-  </div>
-</div>`).join('')
 
-/*export const yearsFilms = years => years.map(year => `
-<option> ${year.release_date} </option>
-`).join('')
+//funcion para traer años hacia
+//metodo sort aplicado en años de peliculas en orden descendente
+
+//crear funcion para introducir datos de arreglo años de manera ascendente
+export const yearsAscendente = (peliculaSas) => { //      //añadir otro parametro  //
+
+  return peliculaSas.sort(function (a, b) {
+    if (a.release_date < b.release_date) {
+      return -1;
+    }
+    if (a.release_date > b.release_date) {
+      return 1;
+    }
+    if (a.release_date === b.release_date) {
+      return 0;
+    }
+  });
+}
+//crear funcion para introducir datos de arraglo años de manera descendente 
+export const yearsDescendente = (peliculas) => {
+  return peliculas.sort(function (a, b) {
+    if (a.release_date < b.release_date) {
+      return 1;
+    }  
+    if (a.release_date > b.release_date) {
+      return -1;
+    }
+    if (a.release_date === b.release_date) {
+      return 0;
+    }
+  })
+}
 
 
-export const anotherExample = () => {
-  return 'OMG';
-};*/
+//Metodo filter -filtrado por nombre de pelicula
+//dataGhlibli= data
+export const filtroPorNombre= (data, buscarNombre) => {
+  const filterTitle = data.filter((film) => film.title.toLowerCase().indexOf(buscarNombre.toLowerCase()) > -1); 
+  return filterTitle;
+};
+
