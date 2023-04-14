@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box; 
+    margin:0;
+
 }
 
 body {
@@ -24,20 +26,22 @@ body {
 
 
 .container {
-    max-width: 1400px;
-    margin: auto;
+    width:100%;
+    max-width: 40%;
+    margin:0 auto;
     display: flex;
 }
 
 .header {
     background-color:rgb;
-    box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+    box-shadow: 0 1px 4px rgba(121, 135, 149, 0.15);
 }
 
 .header .container{
     display: flex;
     flex-direction: column;
     text-align: center;
+
 }
 
 .header_nav{
@@ -78,7 +82,7 @@ body {
 }
 
 .search {
-    width: 80%;
+    width: 70%;
     text-align: center;
     font-size: x-large;
     color:black;
@@ -96,8 +100,8 @@ body {
 }
 
 article {
-    width: 230px;
-    height: 330px;
+    width: 80%;
+    height: 90%;
     display: flex;
     border-radius: 4px;
     padding: 15px 15px 10px;
@@ -121,14 +125,8 @@ article {
         margin: 3%;
 }
 
-/* .cards img */
-.pintarposter img {
-    width: 100%;
-    height: 200px;
-    width: 100px;;
-    padding: 0;
-    margin: 0;
-}
+
+
 
 .cards .card:hover {
     transform: translateY(-15px);
@@ -138,20 +136,29 @@ article {
 
    
 .ordenar{
+    flex:1;
+    padding: 0px;
     display:inline-block;
     height: 50px;
     border: 1px solid #8595ae;
 }
 
-
+ #years {
+     
+     flex-direction: column;
+     padding: 10% 10% 10%;
+     color: black;
+     font-family: "Times New Roman";
+     left: 20%;
+     font-size: 20px;
+ }
 
 
 /*------------------------------------------------------------------------*/
-/*Pantalla para computadora*/
 
-@media (min-width: 650px){ 
+
+@media (max-width: 800px){ 
     .header{
-       /*position: fixed; se usa cuando se crea un menu movible*/
         width: 100%;
 
     }
@@ -167,7 +174,7 @@ article {
   
  /*input de busqueda por nombre*/
     .input {
-        width: 30%;
+        width: 50%;
         position: left ;
     }
 
@@ -181,8 +188,8 @@ article {
    
 
     .card {
-        width: 330px;
-        height: 430px;
+        width: 100%;
+        height: 100%;
         
     }
 
@@ -191,6 +198,7 @@ article {
     }
     
     .cards {
+        width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         text-align: center;
@@ -208,16 +216,22 @@ article {
 
 
  .ordenar {
-      display: flex;
-      display: inline-block;
-    }
+    display: flex;
+    width: 20%;
+    padding: 30%, 50% 30%;
+     display: inline-block;
+     height: 0%;
+     border: 0%;
+     font-size:70px ;
+ }
 
  #years {
+    width: 100%;
     display:flex;
      flex-direction: column;
-     padding: 9px 10px 10px;
+     padding: 20% 30% 20%;
      color: black;
-     font-size: 20px;
+     font-size: 20%;
      font-family: 'Times New Roman', Times, serif;
      left: 20%;
  }
@@ -228,7 +242,6 @@ article {
             height: 100%;
 
         }
-
   }
 
    
