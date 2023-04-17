@@ -40,24 +40,26 @@ Se me viene a la Mente peliculas de anime o estilo japonés.
 <p>Quisiera verlas peliculas en formas de tarjetas y ver el título de la pelicula, que tan recomendada es la película, una descripción de la misma y una sugerencia de donde la podria ver. Pienso en el Studio que realiza películas de anime</p>
 
 <H2> Prototipo de Baja Fidelidad</h2>
+
 ![imagen prototipo baja fidelidad](./imagenes1/paginaweb.jpg)
 
-<h2>Prototipos de  alta fidelidad<h/2>
-<p> </p>
+<h2>Prototipos de  alta fidelidad</h2>
+
  ![prototipo de alta fidelidad en formato movil](./src/imagenes1/prototipoaltafidelidad.jpg)
 
 
 <h2>Imagen de página web en computador </h2>
+
 ![imagen prototipo alta fidelidad](./src/imagenes1/prototipobajafidelidad.jpg)
 
 <h2>responsibe  </h2>
-<p>Pagina web responsibe, que permite visualizar la página web desde diferentes equipos moviles</p>
+Pagina web responsibe, que permite visualizar la página web desde diferentes equipos moviles
+
 ![visual de responsibe](./src/imagenes1/responsibe.jpg)
 
 <h2> Test de Usabilidad  </h2>
-<p>En el testeo del uso de la página, nuestros usuarios pudieron moverse sin problemas por la página, en relación a los test de Jest debi reemplazar las funciones y los parametros dentro de las funciones de ejemplo que traia Jest e ir reviando lo errores, finalmente se logro que los test aprobaran por alderedor del 80%  </p>
+En el testeo del uso de la página, nuestros usuarios pudieron moverse sin problemas por la página, en relación a los test de Jest debi reemplazar las funciones y los parametros dentro de las funciones de ejemplo que traia Jest e ir reviando lo errores, finalmente se logro que los test aprobaran por alderedor del 80%  
 
 <h2>Creado por </h2>
-<p>Carol Robles Barrera</p>
-enlace en linea a Git Hub Carol Robles de  proyecto Data Lover 
+
 * [Carol Robles Barrera](https://github.com/55Carol).
