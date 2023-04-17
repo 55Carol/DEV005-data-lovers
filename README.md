@@ -40,24 +40,24 @@ Se me viene a la Mente peliculas de anime o estilo japonés.
 <p>Quisiera verlas peliculas en formas de tarjetas y ver el título de la pelicula, que tan recomendada es la película, una descripción de la misma y una sugerencia de donde la podria ver. Pienso en el Studio que realiza películas de anime</p>
 
 <H2> Prototipo de Baja Fidelidad</h2>
-<img src= "https://www.figma.com/file/BOdf5TVXSPSiG3quOlT146/Untitled?node-id0-1&t5x356DulCJUojK37-0" alt= "imagen prototipo baja fidelidad"/>
+<img src= "imagenes1/paginaweb.jpg" alt= "imagen prototipo baja fidelidad"/>
 
 <h2>Prototipos de  alta fidelidad<h/2>
 <p> </p>
-<a href="prototipo alta"><img src="https://www.figma.com/proto/lQkioGWeh2KqBKhIo2zhQW/Untitled?node-id=20-3" alt= "prototipo de alta fidelidad en formato movil"/>
+<img src="imagenes1/prototipoaltafidelidad.jpg" alt= "prototipo de alta fidelidad en formato movil"/>
 
 
 <h2>Imagen de página web en computador </h2>
-<a href="pagina web"><img src="https://s4.aconvert.com/convert/p3r68-cdx67/awogc-5rv1f.jpg" alt = "Pagina  web"/>
+<img src="imagenes1/paginaweb.jpg" alt = "Pagina  web"/>
 
 <h2>responsibe  </h2>
 <p>Pagina web responsibe, que permite visualizar la página web desde diferentes equipos moviles</p>
-<a href="responsibe"><img src= "https://s4.aconvert.com/convert/p3r68-cdx67/awogc-5rv1f.jpg" alt= "imagen de pagina web responsibe"/>
+<a img src="imagenes1/responsibe.jpg">
 
 <h2> Test de Usabilidad  </h2>
-<p>En el testeo del uso de la página, nuestros usuarios pudieron moverse sin problemas por la página </p>
+<p>En el testeo del uso de la página, nuestros usuarios pudieron moverse sin problemas por la página, en relación a los test de Jest debi reemplazar las funciones y los parametros dentro de las funciones de ejemplo que traia Jest e ir reviando lo errores, finalmente se logro que los test aprobaran por alderedor del 80%  </p>
 
 <h2>Creado por </h2>
 <p>Carol Robles Barrera</p>
-<p> Git Hub <a href="GitHub"><img src="https://github.com/55Carol/DEV005-data-lovers"> </p>
+[enlace en linea a Git Hub Carol Robles de  proyecto Data Lover (https://github.com/55Carol/DEV005-data-lovers)]
 
