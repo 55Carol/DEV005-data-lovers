@@ -44,20 +44,20 @@ Se me viene a la Mente peliculas de anime o estilo japonés.
 
 <h2>Prototipos de  alta fidelidad<h/2>
 <p> </p>
-<img src= "https://www.figma.com/proto/lQkioGWeh2KqBKhIo2zhQW/Untitled?node-id=20-3" alt= "prototipo de alta fidelidad en formato movil"/>
+<a href="prototipo alta"><img src="https://www.figma.com/proto/lQkioGWeh2KqBKhIo2zhQW/Untitled?node-id=20-3" alt= "prototipo de alta fidelidad en formato movil"/>
 
 
 <h2>Imagen de página web en computador </h2>
-<img src= "https://s4.aconvert.com/convert/p3r68-cdx67/awogc-5rv1f.jpg" alt = "Pagina  web"/>
+<a href="pagina web"><img src="https://s4.aconvert.com/convert/p3r68-cdx67/awogc-5rv1f.jpg" alt = "Pagina  web"/>
 
 <h2>responsibe  </h2>
 <p>Pagina web responsibe, que permite visualizar la página web desde diferentes equipos moviles</p>
-<img src= "https://s4.aconvert.com/convert/p3r68-cdx67/awogc-5rv1f.jpg" alt= "imagen de pagina web responsibe"/>
+<a href="responsibe"><img src= "https://s4.aconvert.com/convert/p3r68-cdx67/awogc-5rv1f.jpg" alt= "imagen de pagina web responsibe"/>
 
 <h2> Test de Usabilidad  </h2>
 <p>En el testeo del uso de la página, nuestros usuarios pudieron moverse sin problemas por la página </p>
 
 <h2>Creado por </h2>
 <p>Carol Robles Barrera</p>
-<p> Git Hub <a href= "https://github.com/55Carol/DEV005-data-lovers"> </p>
+<p> Git Hub <a href="GitHub"><img src="https://github.com/55Carol/DEV005-data-lovers"> </p>
 

@@ -1,12 +1,12 @@
-*{
-    box-sizing: border-box; 
-    margin:0;
+* {
+    box-sizing: border-box;
+    margin: 0;
 
 }
 
 body {
     font-family: 'Times New Roman', Times, serif;
-    background:rgb(97, 126, 180);
+    background: rgb(97, 126, 180);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,10 +15,10 @@ body {
 .pintarposter {
     width: 100%;
     height: 100%;
-    
+
 }
 
-.pintartitulo{
+.pintartitulo {
     text-align: center;
 }
 
@@ -26,25 +26,25 @@ body {
 
 
 .container {
-    width:100%;
+    width: 100%;
     max-width: 40%;
-    margin:0 auto;
+    margin: 0 auto;
     display: flex;
 }
 
 .header {
-    background-color:rgb;
+    background-color: rgb;
     box-shadow: 0 1px 4px rgba(121, 135, 149, 0.15);
 }
 
-.header .container{
+.header .container {
     display: flex;
     flex-direction: column;
     text-align: center;
 
 }
 
-.header_nav{
+.header_nav {
     display: flex;
     flex-direction: column;
     padding-bottom: 25px;
@@ -85,8 +85,8 @@ body {
     width: 70%;
     text-align: center;
     font-size: x-large;
-    color:black;
-    display:inline-block;
+    color: black;
+    display: inline-block;
 }
 
 .input {
@@ -110,19 +110,19 @@ article {
     margin: 20px;
     text-align: center;
     transition: all 0.25s;
-    background-color:rgba(245, 245, 245, 0.159);
+    background-color: rgba(245, 245, 245, 0.159);
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    
-    
+
+
 }
 
-#recorrido{
+#recorrido {
     display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-gap: 50px;
-        margin: 3%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+    margin: 3%;
 }
 
 
@@ -131,51 +131,51 @@ article {
 .cards .card:hover {
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgba(228, 231, 235, 0.2);
-   
+
 }
 
-   
-.ordenar{
-    flex:1;
+
+.ordenar {
+    flex: 1;
     padding: 0px;
-    display:inline-block;
+    display: inline-block;
     height: 50px;
     border: 1px solid #8595ae;
 }
 
- #years {
-     
-     flex-direction: column;
-     padding: 10% 10% 10%;
-     color: black;
-     font-family: "Times New Roman";
-     left: 20%;
-     font-size: 20px;
- }
+#years {
+
+    flex-direction: column;
+    padding: 10% 10% 10%;
+    color: black;
+    font-family: "Times New Roman";
+    left: 20%;
+    font-size: 20px;
+}
 
 
 /*------------------------------------------------------------------------*/
 
 
-@media (max-width: 800px){ 
-    .header{
+@media (max-width: 800px) {
+    .header {
         width: 100%;
 
     }
 
-    
- /*area superior del navegador*/
-    .header_nav{
+
+    /*area superior del navegador*/
+    .header_nav {
         align-items: center;
         flex-direction: row;
         padding-bottom: 0;
     }
 
-  
- /*input de busqueda por nombre*/
+
+    /*input de busqueda por nombre*/
     .input {
         width: 50%;
-        position: left ;
+        position: left;
     }
 
 
@@ -183,67 +183,64 @@ article {
         margin: 0;
         padding: 0;
     }
-     
+
     /* contenedor de imagen y titulo */
-   
+
 
     .card {
         width: 100%;
         height: 100%;
-        
+
     }
 
     .header a {
-        padding-right: 40px; 
+        padding-right: 40px;
     }
-    
+
     .cards {
         width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         text-align: center;
-       
+
     }
+
     .search {
         width: 80%;
         display: flex;
-        flex-direction:row;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
-        display:inline-block;
+        display: inline-block;
         font-size: x-large;
     }
 
 
- .ordenar {
-    display: flex;
-    width: 20%;
-    padding: 30%, 50% 30%;
-     display: inline-block;
-     height: 0%;
-     border: 0%;
-     font-size:70px ;
- }
+    .ordenar {
+        display: flex;
+        width: 20%;
+        padding: 30%, 50% 30%;
+        display: inline-block;
+        height: 0%;
+        border: 0%;
+        font-size: 70px;
+    }
 
- #years {
-    width: 100%;
-    display:flex;
-     flex-direction: column;
-     padding: 20% 30% 20%;
-     color: black;
-     font-size: 20%;
-     font-family: 'Times New Roman', Times, serif;
-     left: 20%;
- }
-     
- /* tamaño de imagen  */
-        .pintarposter {
-            width: 100%;
-            height: 100%;
+    #years {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 20% 30% 20%;
+        color: black;
+        font-size: 20%;
+        font-family: 'Times New Roman', Times, serif;
+        left: 20%;
+    }
 
-        }
-  }
+    /* tamaño de imagen  */
+    .pintarposter {
+        width: 100%;
+        height: 100%;
 
-   
-
-  
+    }
+}

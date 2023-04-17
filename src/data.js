@@ -22,7 +22,7 @@ export const yearsDescendente = (peliculas) => {
   return peliculas.sort(function (a, b) {
     if (a.release_date < b.release_date) {
       return 1;
-    }  
+    }
     if (a.release_date > b.release_date) {
       return -1;
     }
@@ -35,8 +35,8 @@ export const yearsDescendente = (peliculas) => {
 
 //Metodo filter -filtrado por nombre de pelicula
 //dataGhlibli= data
-export const filtroPorNombre= (data, buscarNombre) => {
-  const filterTitle = data.filter((film) => film.title.toLowerCase().indexOf(buscarNombre.toLowerCase()) > -1); 
+export const filtroPorNombre = (data, buscarNombre) => {
+  const filterTitle = data.filter((film) => film.title.toLowerCase().indexOf(buscarNombre.toLowerCase()) > -1);
   return filterTitle;
 };
 

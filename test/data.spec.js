@@ -1,11 +1,11 @@
-import { yearsAscendente, yearsDescendente, filtroPorNombre  } from '../src/data.js';
+import { yearsAscendente, yearsDescendente, filtroPorNombre } from '../src/data.js';
 
 //REMPLAZANDO por funcion data ascendente 
 describe('yearsAscendente', () => {
   const dataordenyear = [{ "title": "Zmovie1", "release_date": "2000", }, { "title": "My Neighbor Totoro", "release_date": "1988", }, { "title": "Isao Takahata", "release_date": "19", }, { "title": "Zmovie1", "release_date": "2000", },]
   const ordenadoyearasc = [{ "title": "Isao Takahata", "release_date": "19", }, { "title": "My Neighbor Totoro", "release_date": "1988", }, { "title": "Zmovie1", "release_date": "2000", }, { "title": "Zmovie1", "release_date": "2000", },]
   it('is a function', () => {
-    
+
     expect(typeof yearsAscendente).toBe('function');
   });
 
@@ -37,7 +37,7 @@ describe('filtroPorNombre', () => {
   const datafiltrotitulos = [{ "title": "Zmovie1", "release_date": "2000", }, { "title": "My Neighbor Totoro", "release_date": "1980", }, { "title": "Isao Takahata", "release_date": "1999", },]
   const filtrartitulos = [{ "title": "Zmovie1", "release_date": "2000", }, { "title": "My Neighbor Totoro", "release_date": "1980", },]
   it('is a function', () => {
-  
+
     expect(typeof filtroPorNombre).toBe('function');
   });
 

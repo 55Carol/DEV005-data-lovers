@@ -1,8 +1,8 @@
 import data from './data/ghibli/ghibli.js';
 import { yearsAscendente, yearsDescendente, filtroPorNombre } from './data.js';
- 
+
 //guardar data en una variable-
-const dataGhibli = data.films 
+const dataGhibli = data.films
 
 
 //(del index Html) Elementos del DOM
@@ -29,13 +29,13 @@ botonyears.addEventListener("change", function (evento) {
   const selectYears = evento.target.value;
   if (selectYears === "ascendente") {
     const ordenarYearsAsc = yearsAscendente(dataGhibli);
-   
+
     pintar(ordenarYearsAsc);
   }
   else {
     const ordenarYearsDesc = yearsDescendente(dataGhibli);
     //mostrar data de peliculas en orden ascendente mostrar data de peliculas en orden descendente
-    pintar(ordenarYearsDesc); 
+    pintar(ordenarYearsDesc);
   }
 })
 
@@ -48,13 +48,13 @@ data.films.forEach((film) => {
 <article>
 <img class="pintarposter" src= "${film.poster}"/>
 </article>`
-  recorrido.innerHTML+=templeS;
+  recorrido.innerHTML += templeS;
 })
 
 //función para pintar en pantalla imagenes peliculas
-function pintar(films) { 
+function pintar(films) {
   recorrido.innerHTML = ""
-  let contenido =""
+  let contenido = ""
   films.forEach((film) => {
     const pintarPeliculas = `
 <article>
@@ -64,9 +64,9 @@ function pintar(films) {
   })
   recorrido.innerHTML = recorrido.innerHTML + contenido
 }
-  
+
 //funcion para filtrar titulos de peliculas
-//dataGhibli = data 
+//dataGhibli = data
 
 //function filtroPornombre(title) {
 //return dataGhibli(data.films, title);
