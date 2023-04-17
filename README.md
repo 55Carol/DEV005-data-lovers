@@ -44,20 +44,20 @@ Se me viene a la Mente peliculas de anime o estilo japonés.
 
 <h2>Prototipos de  alta fidelidad<h/2>
 <p> </p>
- ![prototipo de alta fidelidad en formato movil](./imagenes1/prototipoaltafidelidad.jpg)
+ ![prototipo de alta fidelidad en formato movil](./src/imagenes1/prototipoaltafidelidad.jpg)
 
 
 <h2>Imagen de página web en computador </h2>
-![imagen prototipo alta fidelidad](./imagenes1/prototipobajafidelidad.jpg)
+![imagen prototipo alta fidelidad](./src/imagenes1/prototipobajafidelidad.jpg)
 
 <h2>responsibe  </h2>
 <p>Pagina web responsibe, que permite visualizar la página web desde diferentes equipos moviles</p>
-![visual de responsibe](./imagenes1/responsibe.jpg)
+![visual de responsibe](./src/imagenes1/responsibe.jpg)
 
 <h2> Test de Usabilidad  </h2>
 <p>En el testeo del uso de la página, nuestros usuarios pudieron moverse sin problemas por la página, en relación a los test de Jest debi reemplazar las funciones y los parametros dentro de las funciones de ejemplo que traia Jest e ir reviando lo errores, finalmente se logro que los test aprobaran por alderedor del 80%  </p>
 
 <h2>Creado por </h2>
 <p>Carol Robles Barrera</p>
-[enlace en linea a Git Hub Carol Robles de  proyecto Data Lover (https://github.com/55Carol/DEV005-data-lovers)]
-
+enlace en linea a Git Hub Carol Robles de  proyecto Data Lover 
+* [Carol Robles Barrera](https://github.com/55Carol).
