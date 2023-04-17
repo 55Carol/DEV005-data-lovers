@@ -7,14 +7,14 @@ const dataGhibli = data.films
 
 //(del index Html) Elementos del DOM
 //botones de barra menu
-
+//selectores del DOM
 const recorrido = document.getElementById("recorrido");//variable de recorrido for each
 const search = document.querySelector('#search');//variable de boton filtrar por nombre , caja de busqueda por nombre 
 const botonyears = document.getElementById("years"); // variable de boton ordenar por años
 
 
 
-
+// eventos del DOM
 //evento de cuadro de busqueda por nombre 
 search.addEventListener("keyup", function () {
   const buscarNombre = search.value;
